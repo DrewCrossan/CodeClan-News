@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body>header {
+    background-color: dodgerblue;
+    padding: 16px;
+}
+
+body>main {
+    padding: 60px;
+}
+
+body>footer {
+    background-color: dodgerblue;
+    margin: 0;
+    padding: 1px;
+}
+
+body>footer>h4 {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+body>header>h1 {
+    color: white;
+    padding: 16px;
+    display: inline-block;
+    padding-left: 16px;
+    /* padding-top: 16px; */
+}
+
+body>header>nav {
+    display: inline-block;
+    /* text-align: right; */
+    float: right;
+    padding-top: 50px;
+}
+
+body>header>nav>ul {
+    margin: 0;
+    /* height: 100%; */
+    list-style: none;
+    /* text-align: right; */
+    /* display: inline-block; */
+    /* position: relative; */
+    /* float: right; */
+    /* padding-bottom: 30px; */
+}
+
+body>header>nav>ul>li {
+    display: inline-block;
+    /* text-align: right; */
+    /* float: right; */
+}
+
+body>header>nav>ul>li>a {
+    color: white;
+    padding-right: 8px;
+    /* position: auto; */
+    float: right;
+    /* text-align: right; */
+}
+
+.container {
+    display: flex;
+}
+
+.left-half {
+    flex: 1;
+    padding: 1rem;
+}
+
+.right-half {
+    flex: 1;
+    padding: 1rem;
+}
+
+.right-half>article {
+    display: inline-block;
+}
+
+.right-half>article>img {
+    display: inline-block;
+}
+
+
+/* .right-half > article > h3 {
+    display: inline-block;
+    float: right;
+} */
+
+
+/* .right-half > article > p {
+    display: inline-block;
+    float: right;
+} */
+
+.user {
+    border-top: 2px solid black;
+}
+
+
+/* body > main > main > aside {
+    position: absolute;
+    left: 0px;
+    width: 50%;
+}
+
+body > main > main > aside > section {
+    position: absolute;
+    right: 0px;
+    width: 50%;
+} */
